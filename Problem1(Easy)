@@ -1,0 +1,12 @@
+//print "Hello World!" using C.
+#include <stdio.h>
+#include <string.h>
+
+
+int main()
+{
+    
+    printf("Hello, World!\n");
+    printf("Welcome to C programming.");
+    return 0;
+}
