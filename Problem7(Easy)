@@ -1,0 +1,21 @@
+//Sum of Digits of a Five Digit Numbers
+
+#include<stdio.h>
+
+int main()
+{
+    int rem;
+    int sum=0;
+    int num;
+    scanf("%d",&num);
+    
+    while(num)
+    {
+     rem = num%10;
+     sum = sum+rem;
+     num = num/10;
+    }
+    printf("%d",sum);
+    
+    return 0;
+}
