@@ -1,0 +1,19 @@
+//1D array
+#include<stdio.h>
+
+int main()
+{
+   int sum=0; 
+   int n;
+   scanf("%d",&n);
+   
+   int num[n];
+   for(int i=0;i<n;i++)
+   {
+    scanf("%d",&num[i]);
+    sum+=num[i];
+   }
+  
+   printf("%d",sum);
+   return 0;
+}
