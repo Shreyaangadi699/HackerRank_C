@@ -1,0 +1,21 @@
+//pointers in c
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    int *p=&a;
+    int b;
+    scanf("%d",&b);
+    int *q=&b;
+    
+    int sum=*p+*q;
+    printf("%d\n",sum);
+    
+    int diff = *p-*q;
+    printf("%d",abs(diff));
+    return 0;
+    
+}
